@@ -1,0 +1,26 @@
+# For macOS systems
+.DS_Store
+
+# Vivado & Vitis directory
+*vivado*
+*vitis*
+
+# Text editor configs and enviorements
+*.geany
+.vscode
+venv
+.idea
+
+# For icarus Verilog
+*.out
+*.vcd
+
+# Diagrams
+*.drawio
+
+# Any tmp
+*tmp*
+WIP*
+
+# Repo specific
+
