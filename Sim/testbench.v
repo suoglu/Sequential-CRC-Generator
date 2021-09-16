@@ -17,13 +17,13 @@ module tb();
   reg clk, rst, start;
   reg [127:0] data;
   wire enable, serial;
-  wire [15:0] crc_s, crc_d;
+  wire [31:0] crc_s, crc_d;
   integer f;
 
   parallel_to_serial #(128,1) data_conv(clk,rst,start,data,serial,enable);
 
-  crc_static  uut_s(clk,rst,serial,enable,crc_s);
-  crc_dynamic uut_d(clk,rst,serial,enable,crc_d,16'hFFFF,16'h1021, 16'h0);
+  crc_static  #(32,32'h0,32'h04C11DB7,32'hFFFFFFFF) uut_s(clk,rst,serial,enable,crc_s);
+  crc_dynamic #(32) uut_d(clk,rst,serial,enable,crc_d,32'h0,32'h04C11DB7, 32'hFFFFFFFF);
 
   //Generate clock
   always begin

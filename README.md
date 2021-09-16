@@ -48,7 +48,7 @@ All of these should have the size of `CRC_SIZE`.
 
 ## Simulation
 
-Both modules are simulated with their default values, which corresponds to CRC-16 CCITT-FALSE.
+Both modules are simulated with their default values, which corresponds to CRC-16 CCITT-FALSE. Additionally, configurations for CRC-32 POSIX is simulated. All results are verified via [crccalc.com](https://crccalc.com/).
 
 ## Test
 
