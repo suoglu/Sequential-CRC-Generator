@@ -19,7 +19,7 @@ venv
 *.drawio
 
 # Any tmp
-*tmp*
+*.tmp*
 WIP*
 
 # Repo specific

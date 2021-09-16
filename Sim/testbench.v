@@ -54,7 +54,7 @@ module tb();
   end
 
   initial begin
-    f = $fopen("output.txt","w");
+    f = $fopen("output.tmp.txt","w");
     start = 0;
     data = 128'h73713cb13141af131d313d3231398810;
     #10
