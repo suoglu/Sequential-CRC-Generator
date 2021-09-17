@@ -48,7 +48,7 @@ All of these should have the size of `CRC_SIZE`.
 
 ## Simulation
 
-Both modules are simulated with their default values, which corresponds to CRC-16 CCITT-FALSE. Additionally, configurations for CRC-32 POSIX is simulated. All results are verified via [crccalc.com](https://crccalc.com/).
+Both modules are simulated with their default values, which corresponds to CRC-16 CCITT-FALSE, in [testbench_16b.v](Sim/testbench_16b.v). Additionally, configurations for CRC-32 POSIX is simulated in [testbench_32b.v](Sim/testbench_32b.v).. All results are verified via [crccalc.com](https://crccalc.com/).
 
 ## Test
 
@@ -56,6 +56,6 @@ INFO ABOUT TEST CODE
 
 ## Status Information
 
-**Last Simulation:** 16 September 2021, with [Icarus Verilog](http://iverilog.icarus.com).
+**Last Simulation:** 17 September 2021, with [Icarus Verilog](http://iverilog.icarus.com).
 
 **Last Test:** -
