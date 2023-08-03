@@ -6,6 +6,7 @@
  * File        : crc.v                              *
  * Author      : Yigit Suoglu                       *
  * Last Edit   : 16/05/2021                         *
+ * Licence     : CERN-OHL-W                         *
  * ------------------------------------------------ *
  * Description : Modules for generating crc values  *
  * ------------------------------------------------ *

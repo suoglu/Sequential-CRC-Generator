@@ -10,6 +10,7 @@
 6. Simulation
 7. Test
 8. Status Information
+9. Licence
 
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.com/suoglu/sequential-crc-generator)
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/suoglu/Sequential-CRC-Generator)
@@ -90,3 +91,7 @@ Both modules are tester on [testboard.v](Test/testboard.v). Data taken via uart 
 **Last Simulation:** 17 September 2021, with [Icarus Verilog](http://iverilog.icarus.com).
 
 **Last Test:** 17 September 2021, on [Digilent Basys 3](https://reference.digilentinc.com/reference/programmable-logic/basys-3/reference-manual).
+
+## Licence
+
+CERN Open Hardware Licence Version 2 - Weakly Reciprocal
